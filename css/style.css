@@ -51,7 +51,7 @@ p {
     bottom: -20px;
     width: 60px;
     height: 1px;
-    background-color: #48db00;
+    background-color: #000;
     left: 50%;
     margin-left: -30px;
 }
@@ -89,11 +89,11 @@ p {
         background-color: transparent;
     }
     .navbar-default .navbar-nav>li>a {
-        color: #B5B5B5;
+        color: #FFF;
         font-family: 'Raleway', sans-serif;
     }
     .navbar-default .navbar-nav>li>a:hover {
-        color: #48db00;
+        color: #000;
     }
     .navbar-default .navbar-nav>li>a:focus {
         color: #B5B5B5;
@@ -132,7 +132,7 @@ p {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     background: transparent;
-    color: #48db00;
+    color: #000;
 }
 .header {
     background: url(../images/home.jpg);
@@ -140,7 +140,7 @@ p {
 	background-repeat: no-repeat;
 }
 .header .section_overlay {
-    background-color: rgba(33, 33, 33, .75);
+    background-color: rgba(0, 0, 0, 0);
 }
 .logo{
     padding-bottom: 50px;
@@ -188,8 +188,8 @@ p {
 .home-btn:active,
 .home-btn:visited {
     background: transparent;
-    border-color: #48db00;
-    color: #48db00;
+    border-color: #000;
+    color: #000;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -203,7 +203,7 @@ p {
     transition: all 1s;
 }
 .home-btn:hover {
-    background-color: #48db00;
+    background-color: #000;
     color: #fff;
 }
 .tuor,
@@ -222,12 +222,12 @@ tuor:visited {
     transition: all 1s;
 }
 .tuor:hover {
-    color: #fff;
+    color: #000;
 }
 .tuor i {
     font-size: 20px;
     padding-left: 5px;
-    color: #48db00;
+    color: #000;
 }
 
 
@@ -239,7 +239,7 @@ tuor:visited {
 
 
 .about {
-    background: #F1F1F1;
+    background: #fff;
 }
 .inner_about_area {
     padding-top: 50px;
@@ -260,7 +260,7 @@ tuor:visited {
     bottom: -12px;
     left: 0;
     width: 70px;
-    background: #48db00;
+    background: #000;
     height: 1px;
 }
 .inner_about_title p {
@@ -297,7 +297,7 @@ tuor:visited {
     font-size: 15px;
 }
 .single_about_area:hover div i {
-    color: #48db00;
+    color: #000;
 }
 .about_phone img {} @media (min-width: 991px) and (max-width: 1200px) {
     .about_phone img {
@@ -332,7 +332,7 @@ tuor:visited {
     bottom: -12px;
     left: 0;
     width: 70px;
-    background: #48db00;
+    background: #000;
     height: 1px;
 }
 .video_title p {
@@ -358,9 +358,9 @@ tuor:visited {
     transition: all 1s;
 }
 .btn-video:hover {
-    background: #48db00;
+    background: #000;
     color: #fff;
-    border: 1px solid #48db00;
+    border: 1px solid #000;
 }
 .video {} .video iframe {
     width: 100%;
@@ -394,8 +394,9 @@ tuor:visited {
 .carousel-indicators {
     bottom: -8px;
 }
+
 div.carousel-inner .item img {
-    border: 2px solid #48db00;
+    border: 2px solid #fff;
     border-radius: 50%;
     padding: 3px;
 }
@@ -409,14 +410,14 @@ div.carousel-inner .item img {
     padding-top: 50px;
 }
 .testimonial_caption h2 {
-    color: #48db00;
+    color: #fff;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 30px;
     margin-top: 25px;
 }
 .testimonial_caption h4 {
-    color: #48db00
+    color: #000
 }
 .testimonial_caption h4 span {
     color: #D8D8D8;
@@ -426,14 +427,14 @@ div.carousel-inner .item img {
 .testimonial ol.carousel-indicators li {
     width: 12px;
     height: 12px;
-    border: 1px solid #48db00;
+    border: 1px solid #000;
     margin: 1PX
 }
 .testimonial ol.carousel-indicators li.active {
     width: 12px;
     height: 12px;
-    border: 0px solid #48db00;
-    background: #48db00;
+    border: 0px solid #000;
+    background: #000;
 }
 /*---------------------------------------
    SECTION FEATURES              
@@ -458,7 +459,7 @@ div.carousel-inner .item img {
 .right_single_feature div {
     position: absolute;
     font-size: 40px;
-    color: #48db00;
+    color: #000;
     left: 0;
     width: 90px;
     height: 90px;
@@ -473,7 +474,7 @@ div.carousel-inner .item img {
     color: #333333;
 }
 .right_single_feature h3 span {
-    color: #48db00;
+    color: #000;
 }
 .right_single_feature p {
     color: #333;
@@ -493,7 +494,7 @@ div.carousel-inner .item img {
 .left_single_feature div {
     position: absolute;
     font-size: 40px;
-    color: #48db00;
+    color: #000;
     right: 0;
     width: 90px;
     height: 90px;
@@ -508,7 +509,7 @@ div.carousel-inner .item img {
     color: #333333;
 }
 .left_single_feature h3 span {
-    color: #48db00;
+    color: #000;
 }
 .left_single_feature p {
     color: #333;
@@ -558,8 +559,8 @@ div.carousel-inner .item img {
 .btn-action:active,
 .btn-action:focus,
 .btn-action:visited {
-    background: #48db00;
-    border: 1px solid #48db00;
+    background: #000;
+    border: 1px solid #000;
     color: #fff;
     border-radius: 3px;
     padding: 15px 35px;
@@ -596,12 +597,12 @@ div.carousel-inner .item img {
     -moz-border-radius: 20px;
     border-radius: 20px;
     background: transparent;
-    border: 1px solid #48db00;
+    border: 1px solid #000;
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
     opacity: 1;
-    background: #48db00;
+    background: #000;
 }
 /*---------------------------------------
    SECTION FUN FACTS              
@@ -620,7 +621,7 @@ div.carousel-inner .item img {
     font-family: 'Source Sans Pro', sans-serif;
 }
 .single_fun_facts i {
-    color: #48db00;
+    color: #000;
     font-size: 60px;
     ;
 }
@@ -685,7 +686,7 @@ div.carousel-inner .item img {
     transition: all 1s;
 }
 .single_store i {
-    color: #48db00;
+    color: #000;
     text-align: center;
     opacity: 1;
     font-size: 40px;
@@ -762,8 +763,8 @@ div.carousel-inner .item img {
 
 }
 .contact_form .form-control:focus {
-    border: 1px solid #48db00;
-    border-color: #48db00;
+    border: 1px solid #000;
+    border-color: #000;
     outline: 0px none;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0px 0px 0px rgba(102, 175, 233, 0.6);
 }
@@ -788,13 +789,13 @@ div.carousel-inner .item img {
 .submit-btn:focus,
 .submit-btn:visited {
     background-color: transparent;
-    border: 1px solid #48db00;
+    border: 1px solid #000;
     border-radius: 4px;
     width: 100%;
     height: 50px;
     text-transform: uppercase;
     font-size: 18px;
-    color: #48db00;
+    color: #000;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
@@ -802,9 +803,9 @@ div.carousel-inner .item img {
     outline: 0px !important;
 }
 .submit-btn:hover {
-    background-color: #48db00;
+    background-color: #000;
     color: #fff;
-    border-color: #48db00;
+    border-color: #000;
 }
 .social_icons {
     padding-top: 50px;
@@ -824,12 +825,12 @@ div.carousel-inner .item img {
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    border: 1px solid #9d9d9d;
+    border: 1px solid #000;
     border-radius: 3px;
     width: 45px;
     height: 45px;
     line-height: 49px;
-    color: #9d9d9d;
+    color: #000;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
@@ -839,12 +840,12 @@ div.carousel-inner .item img {
     font-size: 20px;
 }
 .social_icons ul li a:hover {
-    background: #48db00;
-    border: 1px solid #48db00;
-    color: #fff
+    background: #000;
+    border: 1px solid #000;
+    color: #FFF;
 }
 .error {
-    color: #48db00;
+    color: #000;
     display: block;
     padding-bottom: 15px;
     font-size: 18px
@@ -921,12 +922,12 @@ div.carousel-inner .item img {
 .subs-btn:visited {
     width: 200px;
     background: transparent;
-    border: 1px solid #48db00;
+    border: 1px solid #000;
     border-radius: 4px;
     height: 45px;
     margin-left: 0px;
     margin-bottom: 1px;
-    color: #48db00;
+    color: #000;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 17px;
@@ -937,9 +938,9 @@ div.carousel-inner .item img {
     outline: 0px !important;
 }
 .subs-btn:hover {
-    background-color: #48db00;
+    background-color: #000;
     color: #fff;
-    border-color: #48db00;
+    border-color: #000;
 }
 @media (min-width: 300px) {
     .subscribe_form .form-control {
@@ -961,10 +962,10 @@ div.carousel-inner .item img {
 -----------------------------------------*/
 
 .copyright {
-    background-color: #1A1D22;
+    background-color: #FFF;
     padding-bottom: 65px;
     padding-top: 65px;
-    border-bottom: 3px solid #48db00;
+    border-bottom: 3px solid #000;
 }
 .copyright h2 {
     height: 0px;
@@ -981,7 +982,7 @@ div.carousel-inner .item img {
 }
 .copy_right_text p a {
     text-decoration: none;
-    color: #48db00;
+    color: #000;
 }
 .copy_right_text p span {
     font-weight: 300;
@@ -990,7 +991,7 @@ div.carousel-inner .item img {
     text-align: right;
 }
 .scroll_top a {
-    background: #48db00;
+    background: #000;
     padding: 25px;
 }
 .scroll_top a i {

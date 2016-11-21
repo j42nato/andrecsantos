@@ -148,12 +148,6 @@ p {
 .home_text{
     text-align: left;
 }
-.home-iphone{
-    text-align: right;
-}
-.home-iphone img{
-    width: 100%;
-}
 
 @media (max-width: 768px){
     .home-iphone{
@@ -1227,7 +1221,7 @@ p.letters{
 	}
 .community{
 	padding:6em 0;
-	background:#F5F6F7;
+	background:#e4e4e4;
 	}
 .community-left{
 	float:left;

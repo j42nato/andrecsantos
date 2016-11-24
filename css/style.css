@@ -1,4 +1,3 @@
-
 /* Table of Content
 ==================================================
   1. COMMON STYLES
@@ -120,7 +119,7 @@ p {
         transition: all 1s;
     }
     .navbar-nav>li>a {
-        padding-top: 45px;
+	padding-top: 48px;
     }
 }
 @media (max-width: 768px) {
